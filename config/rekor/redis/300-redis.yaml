@@ -20,7 +20,7 @@ metadata:
     app: redis
 spec:
   containers:
-    - image: docker.io/redis:6.2
+    - image: registry.redhat.io/rhel9/redis-6@sha256:63da4136f2c8579a9e3971c8a335dd2bc1279e4afb15f5a8d63bf66c49f9c34a
       name: redis
       args: [
         "--bind",
